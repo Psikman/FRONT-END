@@ -1,0 +1,44 @@
+
+#imagembanner{
+background-image: url(https://picsum.photos/680/720);
+background-repeat: no-repeat;
+width: 680px;
+height: 680px;
+padding: 100%, 50%;
+box-sizing: border-box;
+border-width: 5px;
+border-style: solid;
+border-color: rgb(156, 156, 156);
+border-radius: 50px;
+text-align: center;
+margin-top: 5px;
+margin-left: 5px;
+position:sticky;
+}
+
+h1{
+    color: rgba(81, 156, 19, 0.76);
+    margin: 55px;
+}
+
+h2{
+    color: rgba(208, 205, 218, 0.76);
+    margin: 55px;
+}
+
+.botao{
+    width: 100px;
+    height: 100px;      
+    color: blue;
+    font-weight: 100;
+    border-style: solid;
+    border-color: rgb(156, 156, 156);
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family:fantasy;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
