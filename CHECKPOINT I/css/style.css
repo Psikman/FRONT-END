@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?família=Josefin+Sans:wght@200&família=Lato:ital@1&família=Open+Sans:wght@300&family=Roboto:ital,wght@0.500;1.100&display=swap');
+
+
+body{font-family: 'Roboto', sans-serif;
+    background-image: url(../img/santos.gif);
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+
+}
+
+.icones {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+iframe {
+    width: 900px;
+    height: 500px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    }
+
