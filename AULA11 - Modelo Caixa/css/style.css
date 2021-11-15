@@ -1,0 +1,69 @@
+*{
+    margin:50;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    border: solid black;
+    width: 400;
+    height: 200;
+  
+  }
+  #Corpo{
+    margin: 100px;
+  
+  }
+  .Embaixo{
+    border: solid rgb(52, 27, 165);
+    width: 200px;
+    height: 200px;
+    margin: 100px 0px -100px 500px;
+    position: relative;
+  }
+  
+  .Esquerda{
+    border: solid rgb(196, 26, 26);
+    width: 200px;
+    height: 200px;
+    margin: -100px 100px 70px -100px;
+    position: relative;
+  }
+
+  .Direita{
+    border: dashed rgb(9, 167, 80);
+    width: 200px;
+    height: 200px;
+    margin: -270px 1px 0px 1115px;
+    position: relative;
+  }
+  
+  #um{
+    border: solid rgba(250, 20, 12, 0.651);
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin: 70px 70px;
+  }
+
+  #dois{
+    border: double rgb(9, 167, 80);
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font: bold;
+    text-align: center;
+    margin: 70px 70px;
+  }
+
+  #tres{
+    border: solid rgba(35, 6, 197, 0.767);
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin: 70px 70px;
+  }
+

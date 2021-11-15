@@ -17,13 +17,16 @@ position:sticky;
 }
 
 h1{
-    color: rgba(81, 156, 19, 0.76);
+    color: rgba(18, 15, 207, 0.877);
     margin: 55px;
+    font-size: 60px;
+    
 }
 
 h2{
-    color: rgba(208, 205, 218, 0.76);
+    color: rgba(103, 71, 207, 0.808);
     margin: 55px;
+    font-size: 30px;
 }
 
 .botao{
@@ -32,13 +35,14 @@ h2{
     color: blue;
     font-weight: 100;
     border-style: solid;
-    border-color: rgb(156, 156, 156);
+    border-color: rgb(175, 22, 22);
     border-radius: 50px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 100px;
     margin-left: 5px;
-    font-family:fantasy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     text-transform: capitalize;
+    background-color: rgba(173, 115, 105, 0.908);  
 }
 
