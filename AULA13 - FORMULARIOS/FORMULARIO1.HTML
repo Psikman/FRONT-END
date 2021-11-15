@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <!-- Com essa TAG, informamos ao navegador que iremos montar um formulário.
+             Todos os elementos que queremos colocar no formulário deverá ir dentro dessa TAG.-->
+    <form action="/registro" method="POST">
+        <!-- Aqui colocaremos todos os campos -->
+      
+     </form>
+
+     <h1>MEU PRIMEIRO FORMULARIO</h1>
+
+             <!--TAG <form> e seus atributos
+             Esta TAG possui dois atributos: action e  method. 
+            C ada um realiza uma ação específica: 
+            action define a rota que os dados do form serão processados.
+            method define como serão processados os dados do form (qual o método); na versão do HTML atual, existem duas opções: GET ou  POST. -->
+
+        <form action="/registro" method="POST">
+        
+         </form>
+
+         <h2>FORMULARIO SEM LABEL</h2>
+         <P>Essa é a TAG multifunção do HTML que compõe boa parte do formulário. Alterando o valor do atributo type, podemos escolher a função do input.
+            O Atributo name identifica os campos do input, ele é o índice para o envio das informações. *Sem esse atributo, os dados não são enviados.</P>
+        <form action="/registro" method="POST">
+            <input type="text" name="usuario">
+            <input type="password" name="senha">
+            <input type="email" name="email">
+           
+        </form>
+
+    <h3>FORMULARIO COM LABEL</h3>
+    <P>Por padrão, cada campo terá seu próprio <label> associado. Quando o usuário fizer o clique no label, se ativará o campo associado a esse label.
+    </P>
+    <form action="/registro" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+    
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade">
+    </form>
+
+    <h3 class = "textarea">TAG "TEXTAREA"</h3>
+    <form action="/contact" method="POST">
+        <label for="comentario">Deixe o seu comentário:</label>
+        <textarea name="comentario" id="comentario">Conteúdo</textarea>
+    </form>
+
+<H3>"SELECT" Essa TAG abre a possibilidade de opções para o usuário. Como nos outros campos, necessita do parâmetro name para enviar os dados.</H3>
+<form action="/colors" method="GET">
+    <label>Escolha uma Cor:</label>
+    <select name="color">
+        <option value="#ff0000">Vermelho</option>
+        <option value="#00ff00">Verde</option>
+        <option value="#0000ff">Azul</option>
+        <option value="#770077">Roxo</option>
+    </select>
+</form>
+
+<h3>
+<option value="#ff0000" selected>Vermelho</option>
+<option value="#00ff00">Verde</option>
+</h3>
+<h3 class="botao1">botao1</h3>
+    Um botão de tipo reset reinicia o formulário a seu estado inicial.
+    Um botão de tipo submit tem a função de enviar os dados do formulário.
+    Um botão de tipo button não realiza nenhuma ação, porém, podemos configurá-lo no JavaScript.</H3>
+
+<form action="" method="">
+    <label for="usuario">Ingressa o usuario:</label>
+    <input type="text" name="usuario">
+
+    <button type="reset">Cancelar</button>
+    <button type="submit">Enviar</button>
+</form>
+
+<H3>EXEMPLO DE FORMULARIO</H3>
+
+<form action="/login" method="POST">
+    <p>
+        <label>Nome:</label>
+        <input type="text" name="usuario">
+    </p>
+    <p>
+        <label>Email:</label>
+        <input type="email" name="email">
+    </p>
+    <p>
+       <button type="submit">Enviar</button>
+    </p>
+</form>
+
+<H3>Objetivo
+    Crie um formulário para sua empresa!
+    Instruções
+    Com o conhecimento adquirido na aula, monte um formulário de uma empresa fictícia. Abaixo há um guia do que seu formulário deve ter.
+    
+    Selecione uma marca/logo da internet e coloque no seu site.
+    Opcionalmente, você pode arredondar as bordas com border-radius.
+    Seu formulário deve ter:
+    Um input.
+    Um textarea.
+    Um select com options.
+    Botões de reset e submit.
+    Não se esqueça de personalizar o fundo do seu site com algo bacana da sua escolha!
+    Conclusão
+    Parabéns! Você acaba de finalizar sua mesa de trabalho!
+    </H3>
+
+
+</body>
+</html>
