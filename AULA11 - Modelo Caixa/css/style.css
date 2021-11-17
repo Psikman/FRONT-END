@@ -35,8 +35,8 @@
     border: dashed rgb(9, 167, 80);
     width: 200px;
     height: 200px;
-    margin: -270px 1px 0px 1115px;
-    position: relative;
+    margin: -270px 1px 0px 980px;
+    position: fixed;
   }
   
   #um{

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<H2 class="formulario1">DOCERIA GOURMET</H2>
+
+<form action="cadastrar" name="cadastro-usuario" method="POST">
+<!--quais campos quais legendas
+criar espaco que vai agrupar-->
+
+
+<!-- -->
+<fieldset form="cadastro-usuario">
+<!--quais campos quais legendas
+criar espaco que vai agrupar
+a qual form se refere-->
+
+<legend class="Dadospessoais">Dados Cliente</legend>
+
+<div>
+    <label for="nome">Nome :</label>
+    <input type="text" name="nome" id="nome" placeholder="Insira o nome" size="100">
+</div>
+
+
+<div>
+    <label for="data">Data de Nascimento:</label>
+    <input type="date" name="data" id="data" min="1980-01-01" max="2021-01-01" VALUE="1988-02-21">
+</div>
+
+
+<div>
+    <label for="email">Email  :</label>
+    <input type="email" name="email" id="email" placeholder="Insira o email">
+</div>
+
+<div>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="Insira senha">
+</div>
+
+
+<div>
+    <label for="idade">Idade:</label>
+    <input type="number" name="idade" id="idade" placeholder="Insira idade">
+</div>
+
+<div>
+    <p><strong>Doces</p></strong>
+    <input type="checkbox" name="hobbies" id="Docinhos"><label for="Docinhos">Docinhos</label>
+    <input type="checkbox" name="hobbies" id="Tortas"><label for="Tortas">Tortas</label>
+    <input type="checkbox" name="hobbies" id="Bolos"><label for="Bolos">Bolos</label>
+</div>
+
+
+
+</fieldset>
+
+<fieldset class = "teste" form="cadastro_usuario">
+    <legend class="Evento">Evento</legend>
+
+    <label for ="evento">Tipo do Evento:</label>
+    <select name="evento" id="evento">
+    <option value="0">Selecione uma Opção </option>
+    <option value="1">Casamento</option>
+    <option value="2">Aniversário 15 Anos </option>
+    <option value="3">xxxxx </option>
+    <option value="4">xxxxx </option>
+</select>
+
+</fieldset>
+
+
+<fieldset class = "teste" form="cadastro_usuario">
+    <legend class="Evento">Docinhos</legend>
+
+<div>
+  
+    <br>
+    <input type="checkbox" name="hobbies" id="Docinhos"><label for="Docinhos">Brigadeiro</label>
+    <input type="checkbox" name="hobbies" id="Tortas"><label for="Tortas">Casadinho</label>
+    <input type="checkbox" name="hobbies" id="Bolos"><label for="Bolos">Damasco</label>
+    <input type="checkbox" name="hobbies" id="Bolos"><label for="Bolos">Amendoim</label>
+
+</div>
+
+</div>
+
+</fieldset>
+
+<fieldset class = "tortas" form="tortas">
+    <legend class="tortas">Tortas</legend>
+
+<div>
+  
+    <br>
+    <input type="checkbox" name="hobbies" id="Docinhos"><label for="Docinhos">Morango</label>
+    <input type="checkbox" name="hobbies" id="Tortas"><label for="Tortas">Chocolate</label>
+    <input type="checkbox" name="hobbies" id="Bolos"><label for="Bolos">Leite Ninho</label>
+    <input type="checkbox" name="hobbies" id="Bolos"><label for="Bolos">Limão</label>
+
+</div>
+
+</div>
+
+</fieldset>
+
+<fieldset class = "Bolos" form="Bolos">
+    <legend class="Bolos">Bolos</legend>
+
+<div>
+  
+    <input type="checkbox" name="hobbies" id="Docinhos"><label for="Docinhos">Morango</label>
+    <input type="checkbox" name="hobbies" id="Tortas"><label for="Tortas">Chocolate</label>
+    <input type="checkbox" name="hobbies" id="Bolos"><label for="Bolos">Leite Ninho</label>
+    <input type="checkbox" name="hobbies" id="Bolos"><label for="Bolos">Limão</label>
+
+</div>
+
+</div>
+
+<div class="Observação">
+<label for="minibio">Observação</label>
+<textarea name="minibio" id="Minibio" cols="170" rows="3" placeholder="Comentário"></textarea>
+</div>
+
+</fieldset>
+
+
+<div class="botao">
+   <button type class="reset">Limpar</button>
+   <button type ="submit">Cadastrar</button>
+</div>
+
+<fieldset form="cadastro de pagamento">
+<legend class="forma de Pagamento">Forma de pagamento</legend>
+
+<div class="Forma de pagamento">
+    <input type="radio" name= "pagamento" id="pagpix"> <checked> <label for="pagpix">PIX</label>
+    <input type="radio" name= "pagamento" id="cartao"> <checked> <label for="cartao">cartao</label>
+    <input type="radio" name= "pagamento" id="boleto"> <checked> <label for="boleto">boleto</label>
+</div>
+
+</fieldset>
+
+
+<a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" class="icones"></a>
+<a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" class="icones"></a>
+
+</form>
+
+</body>
+
+   
+</html>

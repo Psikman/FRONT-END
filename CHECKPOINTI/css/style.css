@@ -6,7 +6,7 @@
 
 body{font-family: 'Roboto', sans-serif;
     background-image: url(../img/santos.gif);
-    font-size: 30px;
+    font-size: 13px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,6 +28,7 @@ iframe {
     border-right-width: 10px;
     border-bottom-width: 10px;
     border-left-width: 10px;
+    border-radius: 20px;
 }
 
 p{
@@ -36,3 +37,13 @@ p{
     font-style: italic;
     }
 
+span {
+        background-color: darkblue;
+        color: yellow;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+.subtitulo{
+    font-size: 50px;
+}
