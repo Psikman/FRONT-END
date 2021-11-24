@@ -1,0 +1,58 @@
+.containerCard {
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.itemCard {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 1%;
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemCard h3 {
+    align-self: center;
+    padding: 5px;
+}
+
+.itemCard p{
+    text-align: justify;
+    flex-grow: 1;
+
+}
+
+.itemCard button {
+    align-self: flex-end;
+    border: 1px solid;
+    width: 80px;
+    padding: 2px;
+    border-radius: 10px;
+    border-color: blue;
+    
+}
+
+ul{
+
+    background-color: cornsilk;
+    background-position: center ;
+}
+
+li {
+    background-color: cornsilk;
+    background-position: center ;
+    transition: all;
+    transition-property: all;
+    
+}
+
+li:hover  {
+    transition: all;
+    transition-property: all;
+    
+
+}

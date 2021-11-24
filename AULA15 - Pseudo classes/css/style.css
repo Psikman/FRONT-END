@@ -1,0 +1,16 @@
+input:hover {
+    background-color: blue;}
+
+input::hover {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    }
+
+    input::focus{
+        height: 30px;
+        width: 20px;
+        }
+       
+backgroud
