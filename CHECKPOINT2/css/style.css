@@ -1,0 +1,121 @@
+body::after{
+    background-image: url(../img/cidadesantos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+        content: "";
+
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+      }
+
+.subtitulo{
+          font-size: 20px;
+          
+      }
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-style:bold;
+    color:rgb(16, 0, 31);
+    padding: 20px;
+    margin: 0 auto;
+    }
+
+    .conte{
+       font-size: 20px;
+    }
+ 
+.campo{
+    padding:2px;
+}
+ 
+
+.grupo{
+    margin:10px;
+    border-radius: 10px;
+    border-color: rgb(15, 15, 104);
+}
+
+.grupo1{
+    margin:10px;
+    border-radius: 10px;
+    border-color: rgb(15, 15, 104);
+}
+
+.grupo3{
+    margin:10px;
+    border-radius: 10px;
+    border-color: rgb(15, 15, 104);
+}
+
+
+.formulario1{
+    color: black;
+    margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    padding: 30px;
+   }
+
+textarea{
+    color:rgb(20, 20, 219);
+    margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+      
+}
+
+.icones {
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    background-position:left;
+    margin: 10px;
+    left: 700px;
+    position: relative;
+   
+    }
+
+.concluido{
+    padding: 10px 30px ; 
+    align-content: center; 
+    left: 620px;
+    position: relative;
+}
+
+  .concluido:hover {
+    color: #fff;
+    height: 50px;
+    background-color: blue;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+.reset{
+    padding: 10px 30px ; 
+    color: crimson;
+    border: dotted 2p;
+    left: 630px;
+    position: relative;
+}
+
+.reset:hover {
+    color: #fff;
+    height: 50px;
+    background-color: blue;
+    text-transform: uppercase;
+    position: relative;
+}
+  
+

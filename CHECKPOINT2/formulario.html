@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+<h1 id "titulo"> Cadastro de Usuário - Conheça Santos</h1>
+
+<p id class="subtitulo">Complete suas informações:</p>
+
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+<div class='campo'>
+<label for="nome"><strong>Nome:</strong></label>
+<input type="text" name='nome' id='nome' required>
+</div>
+
+<div class='campo'>
+<label for="sobrenome"><strong>Sobrenome:</strong></label>
+<input type="text" name='sobrenome' id='sobrenome' required>
+</div>
+      
+<div class='campo'>
+    <label for="data_nascimento"><strong>Data Nascimento:</strong></label>
+    <input type="date" name='data_nascimento' id='data_nascimento' required>
+    </div>
+
+<div class='campo'>
+    <label for="telefone"><strong>Telefone:</strong></label>
+    <input type="tel" name='sobrenome' id='sobrenome' required>
+    </div>
+
+<div class='campo'>
+<label for="email"><strong>Email:</strong></label>
+<input type="email" name='Email' id='email' required>
+</div>
+
+<br>
+
+<div class="É maior de idade?">
+    <label for="É maior de idade?"><strong>É maior de idade?</strong></label>
+    <input type="radio" name= "Idade" id="pagpix"> <checked> <label for="Idade">SIM</label>
+    <input type="radio" name= "Idade" id="cartao"> <checked> <label for="Idade">NÃO</label>
+   
+</div>
+
+
+</div>
+
+
+</fieldset class="grupo">
+
+<fieldset class="grupo1">
+<div>
+    <label><strong>Qual ponto da cidade você mais gostou?</strong></label>
+    <label>
+    <input type="radio" name='local' value="praia" checked>Praia
+    </label>
+
+    <label>
+        <input type="radio" name='local' value="cidade">Cidade
+    </label>
+   
+    <label>
+        <input type="radio" name='local' value="Comercio">Comercio
+    </label>
+</div>
+</fieldset>
+
+<fieldset class="grupo3">
+<div>
+<label></label><strong>Quais seus interesses na Cidade?</label></strong><br><br>
+<input type="checkbox" id="interesse1" name="interesse1" value="HTML">
+<label for="interesse1">Turismo</label>
+<input type="checkbox" id="interesse2" name="interesse2" value="CSS">
+<label for="tecnologia2">Negócios</label>
+<input type="checkbox" id="interesse3" name="interesse3" value="PHP">
+<label for="tecnologia3">Visita</label>
+<input type="checkbox" id="interesse4" name="interesse4" value="C##">
+<label for="tecnologia4">Estudante</label>
+<input type="checkbox" id="interesse5" name="interesse5" value="PYTHON">
+<label for="tecnologia5">Morar</label>
+<input type="checkbox" id="interesse6" name="interesse6" value="Java">
+<label for="tecnologia5">Conhecer</label>
+</div>
+
+<div>
+    <br>
+
+    <label class="conte"><strong>Conte um pouco do seu interesse na Cidade</label></strong>
+    <textarea name="experiencia" id="experiencia" cols="60" rows="6"></textarea>
+</div>
+
+
+</fieldset>
+
+<br><br>
+
+<button class="concluido" type="submit">Concluído</button>
+<button class="reset" type="submit">Apagar</button>
+
+
+    </form>
+
+
+    <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" class="icones"></a>
+    <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" class="icones"></a>
+
+</body>
+</html>
